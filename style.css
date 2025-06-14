@@ -1,0 +1,22 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', serif;
+}
+#map {
+  height: 100%;
+  width: 100%;
+  filter: sepia(0.2) contrast(1.1);
+}
+#searchBox {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
